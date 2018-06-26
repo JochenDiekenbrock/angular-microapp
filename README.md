@@ -6,6 +6,13 @@ This example consists of three Angular projects that demonstrate how to use Web 
 - **client-a (/projects/client-a)**: Demo micro app
 - **client-b (/projects/client-b)**: Another demo micro app
 
+This example is a fork of [Manfred Steyers great Micro app example](https://github.com/manfredsteyer/angular-microapp).
+### Changes
+25.06.2018 - remove the need for the hash based location strategy (HashLocationStrategy
+) and enable the default PathLocationStrategy by syncing the routers
+
+25.06.2018 - add lazy loading of the micro apps
+
 ## Install Dependencies
 
 ```
